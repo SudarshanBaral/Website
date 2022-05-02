@@ -132,9 +132,11 @@ a{
     }
     
     .btn-secondary1:active{
+        color: #72949E;
         background-color: #E5EBED;
-    color: #72949E;
+
     opacity: 0.8;
+  border: 0px solid;
     }
     
     .btn-destructive1:active{
