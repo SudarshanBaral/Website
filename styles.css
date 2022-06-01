@@ -135,7 +135,6 @@ Assignments and lab */
     text-align: center;
     background-color: aliceblue;
     padding-top: 20px;
-   position: relative;
    height: 290px;
     
 }
@@ -143,19 +142,20 @@ Assignments and lab */
 .assignment {
    
     /* background-color: aliceblue; */
+    position: relative;
     float: left;
-    padding: 0px 10%;
-    width: 20%
+    margin-right: 5%;
+    width: 32vw;
   
     
 }
 
 .lab {
-    
+    position: absolute;
     /* background-color: aliceblue; */
     float: right;
-    padding: 0px 20%;
-    width: 20%;
+    right: 15%;
+    width: 32vw;
     
 }
 
