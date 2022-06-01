@@ -141,47 +141,49 @@ Assignments and lab */
 
 .assignment {
    
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     position: relative;
     float: left;
-    margin-right: 5%;
-    width: 32vw;
+
+    left: 10%;
+   
   
     
 }
 
 .lab {
-    position: absolute;
-    /* background-color: aliceblue; */
+    
+    background-color: aliceblue;
     float: right;
-    right: 15%;
-    width: 32vw;
+    margin-right: 15%;
+    
     
 }
 
-h2{
-    margin-left: 50px;
-}
+
 
 
 .text {
     text-decoration: none;
 
-   
+  
 }
 
 
 
 h4 {
-    margin-left: 25%;
+    
+   text-align: center;
     margin-top: 10px;
-    padding: 12px 25px;
+    padding: 12px 120px;
     background-color: rgb(192, 212, 253);
     font-size: 1.2rem;
     color: blueviolet;
     border-radius: 10px;
 
 }
+
+
 
 .last{
     margin-bottom: 20px;
@@ -233,7 +235,7 @@ i{
 /* aside */
 .aside {
     position: fixed;
-    right: 20px;
+    right: 3%;
     margin-top: 50px;
     width: 100px;
     z-index: 1;
