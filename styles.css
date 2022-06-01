@@ -1,4 +1,301 @@
-a{
-    text-decoration: none;
-    font-size: larger;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+.inline-block {
+    display: inline-block;
+}
+
+.page{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    display: inline-block;
+}
+
+.container {
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 30px;
+    height: 44px;
+}
+
+nav {
+    box-shadow: 0 1px 10px -1px rgb(0 0 0 / 20%);
+    background-color: aliceblue;
+}
+
+.brand {
+    font-size: 30px;
+    font-weight: 600;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+.container li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding: 21px 3px;
+    
+}
+
+
+.menu {
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 400;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 640px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .right {
+        display: none;
+    }
+} */
+
+/* About */
+
+.about{
+    margin: 50px 0px 20px 100px;
+    margin-bottom: 40px;
+   
+}
+
+.lorem{
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 25%;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.name{
+    color: rgb(210, 43, 43);
+    margin-left: 7%;
+}
+
+.about a {
+    
+        text-decoration: none;
+        padding: 14px 30px;
+    background-color: blueviolet;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 25px;
+    margin-left: 150px;
+    
+   
+}
+
+/* 
+Assignments and lab */
+.assignment{
+    background-color: rgb(188, 178, 166);
+    padding-bottom: 10px;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.lab{
+    background-color: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 30px;
+} 
+
+.align2 h2{
+    padding-top: 20px;
+margin-top: 50px;
+    margin-right: 35px;
+    margin-left: 300px;
+    
+   
+}
+
+
+ .align h2{
+    
+    padding-top: 20px;
+
+    margin-right: 35px;
+    margin-left: 250px;
+   
+   
+
+
+}
+
+
+
+.routine , .image {
+    width: 610px;
+    height: 325px;
+    margin-left: 10px;
+    border-radius: 10px;
+    
+
+}
+
+.routine-text{
+ text-decoration: none;
+ color: black;
+ font-size: large;
+ 
+ 
+ 
+}
+
+h4{
+    margin-left: 230px;
+    width: 120px;
+    
+    
+    margin-top: 3px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: rgb(192, 212, 253);
+font-size: 1.2rem;
+color: blueviolet;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.align{
+    position: absolute;
+    margin-left: 70px;
+    
+}
+
+.align2{
+    margin-left: 790px;
+    margin-top : -50px;
+   
+}
+
+
+
+
+
+
+.return{
+    margin: 30px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+.homepage{
+    text-decoration: none;
+    padding: 10px 20px;
+background-color: blueviolet;
+color: aliceblue;
+border-radius: 5px;
+}
+
+
+
+
+/* footer */
+
+.footer{
+  
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.fonts{
+  
+    font-size: 1.5rem;
+   
+    margin-right: 30px ;
+    
+    /* background-color: rgb(159, 150, 150); */
+    color: black;
+    text-decoration: none;
+    margin-bottom:40px;
+}
+
+.copyright{
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.footer .contacts {
+    margin-bottom: 20px;
+    margin-right: 25px;
+    font-size: 2rem;
+    color: rgb(199, 77, 77);
+}
+
+
+/* aside */
+.aside{
+    position: fixed;
+    right: 20px;
+    margin-top: 50px;
+    width: 100px;
+}
+
+.aside a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+.aside li {
+    
+        list-style: none;
+        display: inline-block;
+        
+        padding: 21px 2px;
+        margin-right: -5px;
+        font-size: larger;
+        
+        
+    
+}
+
