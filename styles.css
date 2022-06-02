@@ -12,6 +12,7 @@
 
 .right {
     float: right;
+    right: 5%;
 }
 
 
@@ -24,6 +25,7 @@
     font-size: 2rem;
     color: black;
     display: inline-block;
+    
 }
 
 .container {
@@ -65,10 +67,15 @@ nav {
     font-weight: 400;
     vertical-align: middle;
     display: inline-block;
+    
 }
 
 
 
+
+.container li:hover{
+    border-bottom: 1px solid black;
+}
 
 
 
@@ -183,7 +190,10 @@ h4 {
 
 }
 
-
+h4:hover{
+box-shadow: 1px 1px 1px 1px;
+    
+}
 
 .last{
     margin-bottom: 20px;
@@ -221,6 +231,10 @@ h4 {
    
 }
 
+.fonts:hover{
+    font-size: 2rem;
+}
+
 .copyright {
     margin-top: 15px;
     margin-right: 10px;
@@ -231,6 +245,7 @@ h4 {
 i{
     margin-top: 10px;
 }
+
 
 /* aside */
 .aside {
@@ -253,9 +268,14 @@ i{
     display: inline-block;
 
     padding: 21px 2px;
-    margin-right: -5px;
+    margin-right: -12px;
     font-size: larger;
 
 
 
+}
+
+.aside li:hover{
+    font-size: 1.3rem;
+    
 }
