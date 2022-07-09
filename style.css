@@ -1,0 +1,112 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+.about {
+    margin-top: 50px;
+   margin-bottom: 20px;
+
+}
+
+
+.lorem {
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: rgb(132, 86, 27);
+    margin-top: -10px;
+}
+
+.name {
+    color: blueviolet;
+    margin-left: 17%;
+    font-size: 2.5rem;
+}
+
+.headline{
+  color: rgb(100, 89, 125);
+  margin-top: -30px;
+  margin-left: 20%;
+  opacity: 0.9;
+  
+}
+
+.about a {
+
+    text-decoration: none;
+    padding: 14px 30px;
+    background-color: blueviolet;
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 25px;
+    margin-left: 20%;
+    
+
+
+}
+
+.get-in-touch:hover{
+/* border-bottom: 4px solid  rgb(53, 53, 53);
+border-right: 4px solid  rgb(20, 20, 20); */
+font-size: 1.4rem;
+}
+
+
+
+
+/* footer */
+
+.footer {
+   
+    text-align: center;
+  
+
+}
+
+
+.fonts {
+
+    font-size: 2.5rem;
+
+    margin-right: 30px;
+
+    
+    color: white;
+    text-decoration: none;
+   
+   
+}
+
+.fonts:hover{
+    font-size: 2rem;
+}
+
+.copyright {
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+
+i{
+    margin-top: 20px;
+}
+
+
+
+
+body{
+    /* background-image: 
+    url("https://www.teahub.io/photos/full/124-1243778_1920x1080-batman-symbol-wallpapers-batman-logo-desktop-wallpaper.jpg"); */
+
+    background-image: url("https://i.pinimg.com/originals/e1/42/4d/e1424d64b5b36667aa15fe86f6424438.png");
+    /* background-color: rgb(7, 6, 6); */
+}
+
+
+.container{
+    z-index: 1;
+}
